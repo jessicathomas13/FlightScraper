@@ -241,6 +241,13 @@ city_from = input("From city? ")
 city_to = input("To city? ")
 date_start = input("Departure date (YYYY-MM-DD)? ")
 date_end = input("Return date (YYYY-MM-DD)? ")
+'''
+Example:
+From city? YYC
+To city? NYC
+Departure date (YYYY-MM-DD)? 2024-09-25
+Return date (YYYY-MM-DD)? 2024-10-01
+'''
 
 # Iterate to get flight details 5 times every 3 hours 
 for n in range(0,5):
